@@ -1,0 +1,31 @@
+=== TOP Snapshot ===
+top - 06:59:05 up  1:36,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  26 total,   1 running,  25 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.2 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7792.2 total,   6815.8 free,    470.0 used,    665.0 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7322.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21756  12000   9184 S   0.0   0.2   0:03.39 systemd
+      2 root      20   0    3060   1792   1792 S   0.0   0.0   0:00.01 init-sy+
+      6 root      20   0    3076   1916   1792 S   0.0   0.0   0:00.00 init
+     52 root      19  -1   58644  15336  14440 D   0.0   0.2   0:29.23 systemd+
+    100 root      20   0   25268   6272   4992 S   0.0   0.1   0:00.35 systemd+
+    158 systemd+  20   0   21452  12672  10496 S   0.0   0.2   0:00.55 systemd+
+    162 systemd+  20   0   91020   7552   6784 S   0.0   0.1   0:00.92 systemd+
+    168 root      20   0    4236   2560   2432 S   0.0   0.0   0:00.01 cron
+    169 message+  20   0    9552   4736   4352 S   0.0   0.1   0:02.49 dbus-da+
+    189 root      20   0   17960   8320   7552 S   0.0   0.1   0:00.94 systemd+
+    193 root      20   0 1755840  12160   9984 S   0.0   0.2   0:00.25 wsl-pro+
+    213 syslog    20   0  222508   5376   4352 S   0.0   0.1   0:00.36 rsyslogd
+    215 root      20   0    3160   2048   1920 S   0.0   0.0   0:00.00 agetty
+
+=== FREE Memory ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       470Mi       6.7Gi       3.4Mi       664Mi       7.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+=== VMSTAT ===
+procs -----------memory---------- ---swap-- -----io---- -system-- -------cpu-------
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st gu
+ 2  0      0 6976324  81888 602008    0    0   110  1548  198    0  0  0 100  0  0  0
